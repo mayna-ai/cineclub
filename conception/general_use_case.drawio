@@ -1,0 +1,395 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.6.6 Chrome/144.0.7559.236 Electron/40.8.4 Safari/537.36" version="29.6.6">
+  <diagram name="Page-1" id="b2E9PCHi7pYvGjRDpT1i">
+    <mxGraphModel dx="1307" dy="672" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="FZu-gbu-Mfp-p3E7n5z2-1" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#fff2cc;strokeColor=#d6b656;" value="utilisateur" vertex="1">
+          <mxGeometry height="60" width="30" x="80" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="FZu-gbu-Mfp-p3E7n5z2-3" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#d5e8d4;strokeColor=#82b366;" value="membre" vertex="1">
+          <mxGeometry height="60" width="30" x="80" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="FZu-gbu-Mfp-p3E7n5z2-4" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="se connecter&amp;nbsp;" vertex="1">
+          <mxGeometry height="40" width="370" x="260" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="FZu-gbu-Mfp-p3E7n5z2-7" edge="1" parent="1" source="FZu-gbu-Mfp-p3E7n5z2-1" style="endArrow=none;html=1;rounded=0;curved=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" target="FZu-gbu-Mfp-p3E7n5z2-4" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="120" y="130" as="sourcePoint" />
+            <mxPoint x="170" y="80" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FZu-gbu-Mfp-p3E7n5z2-8" edge="1" parent="1" source="FZu-gbu-Mfp-p3E7n5z2-1" style="endArrow=none;html=1;rounded=0;curved=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" target="FZu-gbu-Mfp-p3E7n5z2-5" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="120" y="126" as="sourcePoint" />
+            <mxPoint x="240" y="90" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FZu-gbu-Mfp-p3E7n5z2-9" edge="1" parent="1" source="FZu-gbu-Mfp-p3E7n5z2-1" style="endArrow=none;html=1;rounded=0;curved=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" target="FZu-gbu-Mfp-p3E7n5z2-6" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="110" y="125.5" as="sourcePoint" />
+            <mxPoint x="230" y="134.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FZu-gbu-Mfp-p3E7n5z2-11" edge="1" parent="1" source="FZu-gbu-Mfp-p3E7n5z2-3" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="90" y="410" as="sourcePoint" />
+            <mxPoint x="95" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FZu-gbu-Mfp-p3E7n5z2-15" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="consulter voting" vertex="1">
+          <mxGeometry height="40" width="160" x="341" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="FZu-gbu-Mfp-p3E7n5z2-16" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="consulter planning" vertex="1">
+          <mxGeometry height="40" width="160" x="338.88" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="FZu-gbu-Mfp-p3E7n5z2-17" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="consulter participants" vertex="1">
+          <mxGeometry height="40" width="124.25" x="356.75" y="545" as="geometry" />
+        </mxCell>
+        <mxCell id="FZu-gbu-Mfp-p3E7n5z2-18" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="marquer la présense" vertex="1">
+          <mxGeometry height="40" width="85" x="340" y="610" as="geometry" />
+        </mxCell>
+        <mxCell id="FZu-gbu-Mfp-p3E7n5z2-19" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="consulter snacks" vertex="1">
+          <mxGeometry height="40" width="125" x="367.5" y="670" as="geometry" />
+        </mxCell>
+        <mxCell id="FZu-gbu-Mfp-p3E7n5z2-21" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="voir la gallery" vertex="1">
+          <mxGeometry height="40" width="111.5" x="375" y="840" as="geometry" />
+        </mxCell>
+        <mxCell id="FZu-gbu-Mfp-p3E7n5z2-22" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="télécharger des images" vertex="1">
+          <mxGeometry height="40" width="105" x="380" y="910" as="geometry" />
+        </mxCell>
+        <mxCell id="FZu-gbu-Mfp-p3E7n5z2-23" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="voter" vertex="1">
+          <mxGeometry height="40" width="80" x="330" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="FZu-gbu-Mfp-p3E7n5z2-24" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="voir et volonter les snacks" vertex="1">
+          <mxGeometry height="40" width="100" x="380" y="730" as="geometry" />
+        </mxCell>
+        <mxCell id="FZu-gbu-Mfp-p3E7n5z2-25" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="voir les top voted films" vertex="1">
+          <mxGeometry height="40" width="110" x="295" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="FZu-gbu-Mfp-p3E7n5z2-28" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="consulter home" vertex="1">
+          <mxGeometry height="40" width="150" x="330" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="FZu-gbu-Mfp-p3E7n5z2-29" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="se déconnecter" vertex="1">
+          <mxGeometry height="40" width="120" x="361" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="FZu-gbu-Mfp-p3E7n5z2-31" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="suggerer un film" vertex="1">
+          <mxGeometry height="40" width="89" x="431" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="FZu-gbu-Mfp-p3E7n5z2-33" edge="1" parent="1" source="FZu-gbu-Mfp-p3E7n5z2-1" style="endArrow=none;html=1;rounded=0;curved=1;entryX=0.083;entryY=0.45;entryDx=0;entryDy=0;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryPerimeter=0;" target="FZu-gbu-Mfp-p3E7n5z2-29" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="95" y="140" as="sourcePoint" />
+            <mxPoint x="340" y="50" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FZu-gbu-Mfp-p3E7n5z2-34" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="voir les sessions suivantes" vertex="1">
+          <mxGeometry height="40" width="110" x="414" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="FZu-gbu-Mfp-p3E7n5z2-36" edge="1" parent="1" source="FZu-gbu-Mfp-p3E7n5z2-3" style="endArrow=none;html=1;rounded=0;curved=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="FZu-gbu-Mfp-p3E7n5z2-28" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="110" y="240" as="sourcePoint" />
+            <mxPoint x="345" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FZu-gbu-Mfp-p3E7n5z2-39" edge="1" parent="1" source="FZu-gbu-Mfp-p3E7n5z2-25" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;rounded=0;exitX=0.598;exitY=0.086;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.346;entryY=0.975;entryDx=0;entryDy=0;entryPerimeter=0;" target="FZu-gbu-Mfp-p3E7n5z2-28" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" width="160" x="-0.0856" y="-7" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="270" y="290" as="sourcePoint" />
+            <mxPoint x="390" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FZu-gbu-Mfp-p3E7n5z2-40" edge="1" parent="1" source="FZu-gbu-Mfp-p3E7n5z2-34" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;rounded=0;exitX=0.292;exitY=-0.025;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.633;entryY=0.975;entryDx=0;entryDy=0;entryPerimeter=0;" target="FZu-gbu-Mfp-p3E7n5z2-28" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" width="160" x="-0.2005" y="5" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="303" y="329" as="sourcePoint" />
+            <mxPoint x="440" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FZu-gbu-Mfp-p3E7n5z2-41" edge="1" parent="1" source="FZu-gbu-Mfp-p3E7n5z2-3" style="endArrow=none;html=1;rounded=0;curved=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.045;entryY=0.25;entryDx=0;entryDy=0;entryPerimeter=0;" target="FZu-gbu-Mfp-p3E7n5z2-15" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="105" y="380" as="sourcePoint" />
+            <mxPoint x="345" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FZu-gbu-Mfp-p3E7n5z2-42" edge="1" parent="1" source="FZu-gbu-Mfp-p3E7n5z2-23" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" target="FZu-gbu-Mfp-p3E7n5z2-15" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" width="160" x="-0.0682" y="-11" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="270" y="447" as="sourcePoint" />
+            <mxPoint x="315" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FZu-gbu-Mfp-p3E7n5z2-43" edge="1" parent="1" source="FZu-gbu-Mfp-p3E7n5z2-31" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.721;entryY=0.959;entryDx=0;entryDy=0;entryPerimeter=0;" target="FZu-gbu-Mfp-p3E7n5z2-15" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" width="160" x="-0.6" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="285" y="470" as="sourcePoint" />
+            <mxPoint x="443" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FZu-gbu-Mfp-p3E7n5z2-45" edge="1" parent="1" source="FZu-gbu-Mfp-p3E7n5z2-3" style="endArrow=none;html=1;rounded=0;curved=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" target="FZu-gbu-Mfp-p3E7n5z2-16" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="100" y="450" as="sourcePoint" />
+            <mxPoint x="340" y="510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FZu-gbu-Mfp-p3E7n5z2-46" edge="1" parent="1" source="FZu-gbu-Mfp-p3E7n5z2-34" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;rounded=0;entryX=0.628;entryY=0.05;entryDx=0;entryDy=0;entryPerimeter=0;" target="FZu-gbu-Mfp-p3E7n5z2-16" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" width="160" x="0.213" y="2" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points" />
+            <mxPoint x="453" y="329" as="sourcePoint" />
+            <mxPoint x="480" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FZu-gbu-Mfp-p3E7n5z2-53" edge="1" parent="1" source="FZu-gbu-Mfp-p3E7n5z2-3" style="endArrow=none;html=1;rounded=0;curved=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" target="FZu-gbu-Mfp-p3E7n5z2-17" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="105" y="380" as="sourcePoint" />
+            <mxPoint x="363" y="555" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FZu-gbu-Mfp-p3E7n5z2-54" edge="1" parent="1" source="FZu-gbu-Mfp-p3E7n5z2-18" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;rounded=0;exitX=0.655;exitY=0.061;exitDx=0;exitDy=0;entryX=0.419;entryY=1.029;entryDx=0;entryDy=0;exitPerimeter=0;entryPerimeter=0;" target="FZu-gbu-Mfp-p3E7n5z2-17" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" width="160" x="-1" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="420" y="750" as="sourcePoint" />
+            <mxPoint x="420" y="700" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FZu-gbu-Mfp-p3E7n5z2-56" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="voir le nombres des paricipants" vertex="1">
+          <mxGeometry height="40" width="90" x="450" y="610" as="geometry" />
+        </mxCell>
+        <mxCell id="FZu-gbu-Mfp-p3E7n5z2-57" edge="1" parent="1" source="FZu-gbu-Mfp-p3E7n5z2-56" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;rounded=0;entryX=0.761;entryY=0.946;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.234;exitY=0.027;exitDx=0;exitDy=0;exitPerimeter=0;" target="FZu-gbu-Mfp-p3E7n5z2-17" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" width="160" x="-1" y="-14" as="geometry">
+            <mxPoint x="2" y="1" as="offset" />
+            <mxPoint x="480" y="600" as="sourcePoint" />
+            <mxPoint x="386" y="694" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FZu-gbu-Mfp-p3E7n5z2-59" edge="1" parent="1" source="FZu-gbu-Mfp-p3E7n5z2-3" style="endArrow=none;html=1;rounded=0;curved=1;entryX=0.059;entryY=0.375;entryDx=0;entryDy=0;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryPerimeter=0;" target="FZu-gbu-Mfp-p3E7n5z2-19" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="105" y="380" as="sourcePoint" />
+            <mxPoint x="361" y="670" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FZu-gbu-Mfp-p3E7n5z2-61" edge="1" parent="1" source="FZu-gbu-Mfp-p3E7n5z2-24" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="FZu-gbu-Mfp-p3E7n5z2-19" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" width="160" x="-0.5" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="479" y="734" as="sourcePoint" />
+            <mxPoint x="461" y="698" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FZu-gbu-Mfp-p3E7n5z2-63" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="voir l&#39;archive" vertex="1">
+          <mxGeometry height="40" width="115" x="370" y="790" as="geometry" />
+        </mxCell>
+        <mxCell id="FZu-gbu-Mfp-p3E7n5z2-68" edge="1" parent="1" source="FZu-gbu-Mfp-p3E7n5z2-22" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" target="FZu-gbu-Mfp-p3E7n5z2-21" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" width="160" x="-0.5" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="423" y="1192" as="sourcePoint" />
+            <mxPoint x="461" y="999" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FZu-gbu-Mfp-p3E7n5z2-69" edge="1" parent="1" source="FZu-gbu-Mfp-p3E7n5z2-3" style="endArrow=none;html=1;rounded=0;curved=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.079;entryY=0.325;entryDx=0;entryDy=0;entryPerimeter=0;" target="FZu-gbu-Mfp-p3E7n5z2-63" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="105" y="380" as="sourcePoint" />
+            <mxPoint x="350" y="920" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FZu-gbu-Mfp-p3E7n5z2-70" edge="1" parent="1" source="FZu-gbu-Mfp-p3E7n5z2-3" style="endArrow=none;html=1;rounded=0;curved=0;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="FZu-gbu-Mfp-p3E7n5z2-21" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points" />
+            <mxPoint x="110" y="390" as="sourcePoint" />
+            <mxPoint x="285" y="900" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FZu-gbu-Mfp-p3E7n5z2-71" edge="1" parent="1" source="FZu-gbu-Mfp-p3E7n5z2-29" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.437;entryY=1.043;entryDx=0;entryDy=0;entryPerimeter=0;" target="FZu-gbu-Mfp-p3E7n5z2-4" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" width="160" x="-1" y="-5" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="290" y="140" as="sourcePoint" />
+            <mxPoint x="450" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FZu-gbu-Mfp-p3E7n5z2-72" edge="1" parent="1" source="FZu-gbu-Mfp-p3E7n5z2-73" style="endArrow=classic;html=1;rounded=0;exitX=0.203;exitY=0.003;exitDx=0;exitDy=0;exitPerimeter=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="100" y="1240.6896551724137" as="sourcePoint" />
+            <mxPoint x="94.66" y="395" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FZu-gbu-Mfp-p3E7n5z2-73" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#e1d5e7;strokeColor=#9673a6;" value="organisateur" vertex="1">
+          <mxGeometry height="60" width="30" x="90" y="1030" as="geometry" />
+        </mxCell>
+        <mxCell id="FZu-gbu-Mfp-p3E7n5z2-74" edge="1" parent="1" source="FZu-gbu-Mfp-p3E7n5z2-73" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="FZu-gbu-Mfp-p3E7n5z2-75" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="160" y="1290" as="sourcePoint" />
+            <mxPoint x="260" y="1360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FZu-gbu-Mfp-p3E7n5z2-75" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" value="ajouter et confirmer des snacks" vertex="1">
+          <mxGeometry height="40" width="120" x="361" y="1090" as="geometry" />
+        </mxCell>
+        <mxCell id="FZu-gbu-Mfp-p3E7n5z2-76" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" value="inviter des membres via un code d&#39;invitation" vertex="1">
+          <mxGeometry height="40" width="150" x="348.88" y="1160" as="geometry" />
+        </mxCell>
+        <mxCell id="FZu-gbu-Mfp-p3E7n5z2-77" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" value="ajouter une session" vertex="1">
+          <mxGeometry height="40" width="150" x="346" y="1020" as="geometry" />
+        </mxCell>
+        <mxCell id="FZu-gbu-Mfp-p3E7n5z2-78" edge="1" parent="1" source="FZu-gbu-Mfp-p3E7n5z2-73" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.053;entryY=0.345;entryDx=0;entryDy=0;entryPerimeter=0;" target="FZu-gbu-Mfp-p3E7n5z2-76" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="95" y="1420" as="sourcePoint" />
+            <mxPoint x="270" y="1350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FZu-gbu-Mfp-p3E7n5z2-79" edge="1" parent="1" source="FZu-gbu-Mfp-p3E7n5z2-73" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" target="FZu-gbu-Mfp-p3E7n5z2-77" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="105" y="1410" as="sourcePoint" />
+            <mxPoint x="278" y="1404" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FZu-gbu-Mfp-p3E7n5z2-5" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="s&#39;inscrire&amp;nbsp;" vertex="1">
+          <mxGeometry height="40" width="110" x="361" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="FZu-gbu-Mfp-p3E7n5z2-6" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="avoir une idée sur le site" vertex="1">
+          <mxGeometry height="40" width="110" x="366" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="FZu-gbu-Mfp-p3E7n5z2-87" edge="1" parent="1" source="FZu-gbu-Mfp-p3E7n5z2-28" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;rounded=0;exitX=1.003;exitY=0.345;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.591;entryY=1.006;entryDx=0;entryDy=0;entryPerimeter=0;" target="FZu-gbu-Mfp-p3E7n5z2-4" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" width="160" x="-0.8697" y="1" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="560" y="264" />
+              <mxPoint x="560" y="190" />
+            </Array>
+            <mxPoint x="440" y="150" as="sourcePoint" />
+            <mxPoint x="520" y="70" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FZu-gbu-Mfp-p3E7n5z2-88" edge="1" parent="1" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;rounded=0;entryX=0.661;entryY=0.983;entryDx=0;entryDy=0;entryPerimeter=0;" target="FZu-gbu-Mfp-p3E7n5z2-4" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" width="160" x="-0.8978" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="600" y="410" />
+              <mxPoint x="600" y="180" />
+            </Array>
+            <mxPoint x="500" y="410" as="sourcePoint" />
+            <mxPoint x="508" y="63" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FZu-gbu-Mfp-p3E7n5z2-89" edge="1" parent="1" source="FZu-gbu-Mfp-p3E7n5z2-15" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;rounded=0;entryX=0.691;entryY=0.966;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1.013;exitY=0.371;exitDx=0;exitDy=0;exitPerimeter=0;" target="FZu-gbu-Mfp-p3E7n5z2-4" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" width="160" x="-0.9261" y="-8" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="640" y="455" />
+              <mxPoint x="640" y="180" />
+            </Array>
+            <mxPoint x="510" y="420" as="sourcePoint" />
+            <mxPoint x="515" y="59" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FZu-gbu-Mfp-p3E7n5z2-90" edge="1" parent="1" source="FZu-gbu-Mfp-p3E7n5z2-17" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;rounded=0;entryX=0.719;entryY=0.999;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="FZu-gbu-Mfp-p3E7n5z2-4" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" width="160" x="-0.9261" y="-8" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="680" y="565" />
+              <mxPoint x="670" y="180" />
+            </Array>
+            <mxPoint x="513" y="465" as="sourcePoint" />
+            <mxPoint x="526" y="59" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FZu-gbu-Mfp-p3E7n5z2-91" edge="1" parent="1" source="FZu-gbu-Mfp-p3E7n5z2-19" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;rounded=0;entryX=0.75;entryY=0.999;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="FZu-gbu-Mfp-p3E7n5z2-4" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" width="160" x="-0.8992" y="-3" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="700" y="690" />
+              <mxPoint x="700" y="360" />
+              <mxPoint x="700" y="170" />
+            </Array>
+            <mxPoint x="491" y="575" as="sourcePoint" />
+            <mxPoint x="536" y="60" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FZu-gbu-Mfp-p3E7n5z2-92" edge="1" parent="1" source="FZu-gbu-Mfp-p3E7n5z2-63" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;rounded=0;entryX=0.789;entryY=0.856;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="FZu-gbu-Mfp-p3E7n5z2-4" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" width="160" x="-0.8992" y="-3" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="720" y="810" />
+              <mxPoint x="720" y="420" />
+              <mxPoint x="720" y="160" />
+            </Array>
+            <mxPoint x="503" y="700" as="sourcePoint" />
+            <mxPoint x="548" y="60" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FZu-gbu-Mfp-p3E7n5z2-93" edge="1" parent="1" source="FZu-gbu-Mfp-p3E7n5z2-21" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;rounded=0;entryX=0.871;entryY=0.896;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryPerimeter=0;" target="FZu-gbu-Mfp-p3E7n5z2-4" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" width="160" x="-0.8992" y="-3" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="740" y="860" />
+              <mxPoint x="740" y="400" />
+              <mxPoint x="740" y="160" />
+              <mxPoint x="720" y="130" />
+              <mxPoint x="700" y="120" />
+            </Array>
+            <mxPoint x="570.0000000000005" y="805.85" as="sourcePoint" />
+            <mxPoint x="659.2537544107704" y="-10.001272843610671" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FZu-gbu-Mfp-p3E7n5z2-94" edge="1" parent="1" source="FZu-gbu-Mfp-p3E7n5z2-77" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.968;entryY=0.84;entryDx=0;entryDy=0;entryPerimeter=0;" target="FZu-gbu-Mfp-p3E7n5z2-4" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" width="160" x="-0.3946" y="-8" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="760" y="1040" />
+              <mxPoint x="760" y="160" />
+              <mxPoint x="720" y="110" />
+            </Array>
+            <mxPoint x="380" y="930" as="sourcePoint" />
+            <mxPoint x="810" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gOmSpQYXYr_n5G1aKb3g-1" edge="1" parent="1" source="FZu-gbu-Mfp-p3E7n5z2-4" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;rounded=0;exitX=0.551;exitY=1.029;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="FZu-gbu-Mfp-p3E7n5z2-5" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" width="160" x="0.6434" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="520" y="150" />
+            </Array>
+            <mxPoint x="431" y="90" as="sourcePoint" />
+            <mxPoint x="510" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gOmSpQYXYr_n5G1aKb3g-3" edge="1" parent="1" source="FZu-gbu-Mfp-p3E7n5z2-75" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="FZu-gbu-Mfp-p3E7n5z2-4" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" width="160" x="-0.3946" y="-8" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="790" y="1110" />
+              <mxPoint x="790" y="150" />
+              <mxPoint x="750" y="100" />
+            </Array>
+            <mxPoint x="524" y="1030" as="sourcePoint" />
+            <mxPoint x="648" y="34" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gOmSpQYXYr_n5G1aKb3g-4" edge="1" parent="1" source="FZu-gbu-Mfp-p3E7n5z2-76" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.983;entryY=0.368;entryDx=0;entryDy=0;entryPerimeter=0;" target="FZu-gbu-Mfp-p3E7n5z2-4" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" width="160" x="-0.3946" y="-8" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="810" y="1180" />
+              <mxPoint x="816" y="136" />
+              <mxPoint x="776" y="86" />
+            </Array>
+            <mxPoint x="550" y="1016" as="sourcePoint" />
+            <mxPoint x="674" y="20" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gOmSpQYXYr_n5G1aKb3g-5" edge="1" parent="1" source="FZu-gbu-Mfp-p3E7n5z2-75" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" target="FZu-gbu-Mfp-p3E7n5z2-77" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" width="160" x="-0.3274" y="1" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="452" y="1090" as="sourcePoint" />
+            <mxPoint x="450" y="1060" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gOmSpQYXYr_n5G1aKb3g-6" edge="1" parent="1" source="FZu-gbu-Mfp-p3E7n5z2-76" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;rounded=0;exitX=0.938;exitY=0.249;exitDx=0;exitDy=0;entryX=0.958;entryY=0.771;entryDx=0;entryDy=0;entryPerimeter=0;exitPerimeter=0;" target="FZu-gbu-Mfp-p3E7n5z2-77" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" width="160" x="-0.5" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="442" y="1170" as="sourcePoint" />
+            <mxPoint x="440" y="1140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
